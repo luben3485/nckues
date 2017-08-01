@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	font-family:"Microsoft JhengHei";
+	font-size:16px;
+
+}	
+/* head */
+.center{
+	width:1020px;
+	margin:auto;
+	/*height:315;*/
+}
+#headtext img{
+	float:left;
+}
+#headtext h1{
+
+	float:right;
+
+	font-size:63px;
+
+	text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+#headtext h2{
+
+	float:right;
+	font-size:30px;
+
+	text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+
+/* head */
+ 
+/*menubar開始*/
+
+
+#menubar,#menubar ul{
+	list-style: none;
+}
+#menubar > li {	
+	float:left;
+}
+#menubar li a{
+	display:block;
+	height:20px;
+	width:107px;
+	padding:10px; /*內距設定*/
+	text-decoration: none;  /* 這裡把超連結底線去除*/
+}
+#menubar > li > a{
+	background-color:#6494ed;
+	color: #fff;
+}
+#linklist{
+	position:absolute;
+	background-color:#efefef;
+	z-index:1;
+	display:none;
+}
+#linklist > li > a {
+	color:#121;
+	width:auto;	
+}
+#menubar li a:hover{
+	background-color:#5884d6;
+	color:#fff;
+}
+#menubar li:hover #linklist{
+	display:block;	
+}
+/* menubar結束*/
+
+/* home  */
+#aboutus{
+	width:1016px;
+	height:600px;
+}
+#aboutus h1{
+	display:block;
+	padding-top:100px;
+	width:200px;
+
+	font-size:40px;	
+	margin:auto;
+	color: rgba(0,0,0,0.6);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+
+                 0px -5px 35px rgba(255,255,255,0.3);	
+}
+#aboutus h2{
+
+	display:block;
+	width:200px;
+	float:left;
+	margin-left:69px;
+	margin-right:69px;
+	font-size:35px;	
+	border-bottom:solid;
+}
+#recently{
+	width:1016px;
+	height:700px;
+	position:relative;
+	border-bottom:solid;
+}
+#recently h1{
+	display:block;
+	padding-top:100px;
+	width:1016px;
+
+	font-size:40px;	
+	padding-left:340px;
+	color: rgba(0,0,0,0.6);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+
+                 0px -5px 35px rgba(255,255,255,0.3);	
+}
+
+#img1{
+	position:absolute;
+	top:240px;
+	left:240px;
+	z-index:-1;
+}
+#img2{
+	position:absolute;
+	top:270px;
+	left:270px;
+	z-index:0;
+}
+#img3{
+	position:absolute;
+	top:300px;
+	left:300px;
+	z-index:1;
+}
+#footer {
+	float:right;
+}
+/* home  over*/
+
+/*系跑跑 */
+#onlinegame{
+	width:1016px;
+	height:700px;
+	border-bottom:solid;
+}
+#onlinegame h1{
+	display:block;
+	padding-top:100px;
+	width:1016px;
+
+	font-size:40px;	
+
+	color: rgba(0,0,0,0.6);
+	text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+
+                 0px -5px 35px rgba(255,255,255,0.3);	
+}
+
+#kartrider{
+	padding-top:50px;
+	padding-right:30px;
+	float:left	
+}
+#onlinegame p{
+	font-size:16px;	
+}
+#onlinegame h2{
+	font-size:20px;	
+}
+/*系跑跑 over*/
+
+
+
